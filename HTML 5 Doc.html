@@ -1,25 +1,55 @@
 <!DOCTYPE html>
-<!-- saved from url=(0058)file:///C:/Users/Jeffrey%20Silver/Downloads/html5_doc.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html>
+<head>
+<meta charset=UTF-8">
 <title>HTML 5 Doc</title>
 	<style>
-		body,html {padding: 0; margin: 0}
-		header h1 { text-align:center;
-		font-family: arial, helvetica;
-		font-size: 30px;
+		.sidebar{
+			margin-top: .5%;
+		    	float: right;
+		    	height: 99.5%;
+			background-color: #FB7BF1;
+			width: 20%;
 		}
-		header {background-color: #878787;
-		color: #fff; padding: 20px 40px; width: 100%; box-sizing: border-box;}
 		
-		nav { background-color: #AD3DCB; padding: 15px 0;}
-		nav a {color: #fff; font-size: 19px; padding-right: 60px; margin-left: 80px; text-decoration: none; }
+		.main{ 
+			margin-top:.5%;
+			float: left
+			width: 79.5%;
+			background-color: white;
+			height: 99.5%;
+		}
 		
-		nav ul {list-style-type:none; }
+		body,html {background-color: #878787; padding: 0; margin: 0; height: 100%}
+		
+		header h1 { text-align:center; background-color: #878787; font-family: arial, helvetica; font-size: 30px;}
+		
+		h1 { 
+		    text-align:center; font-family: cursive, arial, helvetica; font-size: 30px;
+		}
+		
+		h2 { 
+		    text-align:left; font-family: cursive, arial, helvetica; font-size: 20px;
+		}
+		
+		header {background-color: #878787; color: #fff; padding: 20px 40px; width: 100%; box-sizing: border-box;}
+		
+		nav { background-color: #FB7BF1; padding 15px 0;}
+		nav a {color: #fff; font-size: 19px; padding-right: 60px; text-decoration: none; margin-left: 80px;}
+		
+		nav ul {list-style-type:none;}
 		nav ul li {display: inline-block}
-	
+		    
+		copy{
+		    height: 10%;
+		    width: 100%;
+		    margin-top: .5%;
+		    background-color: white:
+		}
+			
 	</style>
 </head>
+	
 <body>
 	<header>
 	<h1>Header</h1>
@@ -38,9 +68,23 @@
 	</li>
 	</ul>
 	</nav>
+	
+	<div class ="sidebar">
+		<h1>Related </h1>
+		<ul>
+			<li><a href="#">Oh I do like to be beside the seaside</a></li>
+			<li><a href="#">Oh I do like to be beside the sea</a></li>
+			<li><a href="#">Although in the North of England</a></li>
+			<li><a href="#">It never stops raining</a></li>
+			<li><a href="#">Oh well...</a></li>
+		</ul>
+			
+	</div>
+		
+		<div class="main">
 	<h1> Article heading </h1>
 	<h2> Subsection </h2>
-	<h2> Another Subsection </h2>
-
-
-</body></html>
+	<h2> Another Subsections </h2>
+		</div>
+</body>
+</html>
